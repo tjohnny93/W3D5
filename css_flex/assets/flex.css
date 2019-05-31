@@ -19,7 +19,11 @@ ul li a, figcaption a {
 
 header > img {
   width: 100px;
-  float: left;
+  /* float: left; */
+}
+
+header {
+  display: flex;
 }
 
 .ingredients-list {
@@ -67,11 +71,12 @@ h2 + .user_review {
 }
 
 nav {
-    float: right;
+    /* float: right; */
 }
 
-nav ul li {
-    display: inline-block;
+nav ul {
+    /* display: inline-block; */
+    display: flex;
 }
 
 nav ul li a {
